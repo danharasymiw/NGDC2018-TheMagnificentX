@@ -1,0 +1,311 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:Assets/Plugins/cssparse.net.dll
+-r:Assets/Plugins/DeJson.dll
+-r:Assets/Plugins/websocket-sharp.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/Richard/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/ClientRequest.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/ClientResponse.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/DnsClient.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/RequestResolver/IRequestResolver.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/RequestResolver/NullRequestResolver.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/RequestResolver/TcpRequestResolver.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/RequestResolver/UdpRequestResolver.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Client/ResponseException.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Domain.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Header.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/IMessage.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/IMessageEntry.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/IRequest.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/IResponse.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Marshalling/EndianAttribute.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Marshalling/Endianness.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Marshalling/Struct.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/OperationCode.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Question.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/RecordClass.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/RecordType.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Request.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/BaseResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/CanonicalNameResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/IPAddressResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/IResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/MailExchangeResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/NameServerResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/PointerResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/ResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/ResourceRecordFactory.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResourceRecords/StartOfAuthorityResourceRecord.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Response.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/ResponseCode.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Utils/ByteExtensions.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Utils/ByteStream.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Protocol/Utils/ObjectStringifier.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Server/DnsServer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Server/IQuestionAnswerer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/DNS/Server/MasterFile.cs
+Assets/HappyFunTimes/HappyFunTimesCore/GameServer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTArgParser.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTArgUtils.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTCheck.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTConnectionManager.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTConstants.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTDialog.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTEventProcessor.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTGameConnector.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTGameOptions.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTGlobalEventEmitter.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTHappyFunTimesSettings.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTIpUtils.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTLog.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTLogger.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTManager.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTMessageCmd.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTNoPlayers.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTPlayerManager.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTPostMessages.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTRuntimeOptions.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTSyncedClock.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTThreadSafe.cs
+Assets/HappyFunTimes/HappyFunTimesCore/HFTUtil.cs
+Assets/HappyFunTimes/HappyFunTimesCore/LocalNetPlayer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/NetPlayer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/PlayerConnectMessageArgs.cs
+Assets/HappyFunTimes/HappyFunTimesCore/PlayerConnector.cs
+Assets/HappyFunTimes/HappyFunTimesCore/PlayerSpawner.cs
+Assets/HappyFunTimes/HappyFunTimesCore/RealNetPlayer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTCaptivePortalHandler.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTDNSRunner.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTDNSServer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTDNSServerHelper.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTDnsUtils.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTGame.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTGameGroup.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTGameManager.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTHttpRequest.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTMimeType.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTPlayer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTRelayMsgs.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTRouter.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTSite.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTSocket.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTWebFileDB.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTWebFileLoader.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTWebServer.cs
+Assets/HappyFunTimes/HappyFunTimesCore/Server/HFTWebServerUtils.cs
+Assets/HappyFunTimes/Scripts/HFTColorUtils.cs
+Assets/HappyFunTimes/Scripts/HFTDirInfo.cs
+Assets/HappyFunTimes/Scripts/HFTGamepad.cs
+Assets/HappyFunTimes/Scripts/HFTGamepadHelper.cs
+Assets/HappyFunTimes/Scripts/HFTGlobalSoundHelper.cs
+Assets/HappyFunTimes/Scripts/HFTGyroscope.cs
+Assets/HappyFunTimes/Scripts/HFTInput.cs
+Assets/HappyFunTimes/Scripts/HFTInstructions.cs
+Assets/HappyFunTimes/Scripts/HFTPlayerNameManager.cs
+Assets/HappyFunTimes/Scripts/HFTReadme.cs
+Assets/HappyFunTimes/Scripts/HFTReadmeFile.cs
+Assets/HappyFunTimes/Scripts/HFTReadmeUtils.cs
+Assets/HappyFunTimes/Scripts/HFTSoundPlayer.cs
+Assets/HappyFunTimes/Scripts/HFTSounds.cs
+Assets/HappyFunTimes/Tests/Scripts/HFTDnsTest.cs
+Assets/HappyFunTimes/Tests/Scripts/HFTStartStopTest.cs
+Assets/managerspawner.cs
+Assets/Scripts/Bull.cs
+Assets/Scripts/Bullet.cs
+Assets/Scripts/CharacterCreator.cs
+Assets/Scripts/ControllerManager.cs
+Assets/Scripts/DisplayName.cs
+Assets/Scripts/DontDestroy.cs
+Assets/Scripts/dust.cs
+Assets/Scripts/Manager.cs
+Assets/Scripts/Player.cs
+Assets/Scripts/Projectile.cs
+Assets/Scripts/RifleBullet.cs
+Assets/Scripts/Shotgun.cs
+Assets/Scripts/ShotgunBullet.cs
+Assets/Scripts/SixShooter.cs
+Assets/Scripts/StagingAreaManager.cs
+Assets/Scripts/Stampede.cs
+Assets/Scripts/VictoryManager.cs
+Assets/Scripts/Weapon.cs
+Assets/Scripts/WeaponPickup.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

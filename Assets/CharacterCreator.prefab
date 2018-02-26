@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1008802770356758}
+  m_IsPrefabParent: 1
+--- !u!1 &1008802770356758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4239788255357352}
+  - component: {fileID: 114734201110177536}
+  m_Layer: 0
+  m_Name: CharacterCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4239788255357352
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008802770356758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.9450965, y: -0.29618186, z: 0.00914608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114734201110177536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008802770356758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b428ade2fcd0194395d6c5e6ab8be8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maleBody: {fileID: 1815763123172274, guid: f2c647ffe95ba2349b0d60148a23854d, type: 2}
+  maleHeads:
+  - {fileID: 1947100001924460, guid: 9e3880c2797c17445826efae3e4cddbf, type: 2}
+  - {fileID: 1171765466569502, guid: 288e8491316e9e74b803e1b764ca923f, type: 2}
+  - {fileID: 1943066445527924, guid: afc16318c1e45534da8a5118e7aba5d4, type: 2}
+  - {fileID: 1247195982618918, guid: df1e77d388cbe98418b1fa6657440815, type: 2}
+  - {fileID: 1273690527277430, guid: 7f315667fa6669947a24bc70ec383cf3, type: 2}
+  femaleBody: {fileID: 1009688528938260, guid: bad4657179d7867469117855b5672c5d, type: 2}
+  femaleHeads:
+  - {fileID: 1341989067139302, guid: f807b287b52acaf49930854e4df2fd3c, type: 2}
+  - {fileID: 1115158284949474, guid: ef77ae56f36c115449c010053a192c72, type: 2}
+  - {fileID: 1646010707363452, guid: be6f907cb9e26b74d9e36361065cd71c, type: 2}
